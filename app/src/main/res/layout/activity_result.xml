@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/textViewOriginalFahrenheit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grados Fahrenheit: 0.0°F" />
+    <TextView
+        android:id="@+id/textViewResultCelsius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado en Celsius: 0.0°C" />
+
+</LinearLayout>
